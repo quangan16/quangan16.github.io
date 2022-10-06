@@ -4,262 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xshoe.com</title>
-    <link rel="icon" type="image/x-icon" href="\footage\Xshoe.png">
-    <link rel="stylesheet" href="XshoeDesign.css">
-    <script src="https://kit.fontawesome.com/1f4a5b33c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Document</title>
 </head>
 <body>
-    <div class="header">
-            <div id = "Logo"><a href="">Xshoe</a></div>
-            
-            <div class="navbar">
-                <ul>
-                    <li id = "active"><a  href="" style="font-weight: Bolder;">Trang chủ</a></li>
-                    <li><a href="San_pham.html">Sản phẩm</a></li>
-                    <li><a href="">Về chúng tôi</a></li>
-                    <li><a href="">Liên hệ</a></li>
-                </ul>
-            </div>
-        <div class="r-nav"> 
-            <div id="signup">
-                <span><a href="">Trợ giúp</a> </span> |
-                <span> <a href="">Đăng nhập</a>  </span> |
-                <span><a href="">Đăng ký</a>  </span>
-                <a href="" ><img  src="footage\vietnam.png" alt="" style="width: 30px; padding-left: 10px; "></a>
-                
-            </div>
-
-            <div id ="search">
-                <form action="">
-                    <i class="fas fa-search"></i>
-                    <input type="text" placeholder="Search...">
-                    
-                </form>
-                
-            </div>
-            <div id = "h-icon">
-                <a href=""><i class="far fa-heart"></i></a>
-                <a href=""><i class="fa fa-shopping-bag" ></i></a>
-            </div>
-        </div>          
-    </div>
-
-    
-    <div id="top-banner">
-        <img src="https://bizweb.dktcdn.net/100/140/774/themes/827866/assets/slider_1.jpg?1627104606592" alt="top banner">
-        <span class = "dot" id = "choose"></span>
-        <span class = "dot"></span>
-        <span class = "dot"></span>
-        
-    </div>
-
     <div class="content">
-        <h1>Mới nhất</h1>
-        <div class = "Hot">
-            <div class ="Product">
-                <img src="footage\tt1.png" alt="anh 1">
-                <span><h3>Nike Air Force 1' 07</h3><span> 
-                <span class = "price">2,540,000₫</span>
-                <br>
-                <span class = "price-real">2,200,000₫</span>
+    <header>
+        <h1>
+            BACKGROUND GENERATOR
+        </h1>
+    </header>
+    <main>
+        <section class="input">
+            <div class="color_box_1">
+                <input title="color-picker" type="color" name="color-picker" id="color-picker-1" onchange=colorPicker()>
             </div>
-            <div class ="Product">
-                <img src="footage\tt2.png" alt="anh 2">
-                <span><h3>Nike Air Force 1' 07</h3><span> 
-                <span class = "price">2,540,000₫</span>
-                <br>
-                <span class = "price-real">2,200,000₫</span>
+            <div class="color_box_2">
+                <input title="color-picker" type="color" name="color-picker" id="color-picker-2" ondrag=colorPicker()>
             </div>
-            <div class ="Product">
-                <img src="footage\tt3.png" alt="anh 1">
-                <span><h3>Nike Air Force 1' 07</h3><span> 
-                <span class = "price">2,540,000₫</span>
-                <br>
-                <span class = "price-real">2,200,000₫</span>
-            </div>
-            <div class ="Product">
-                <img src="footage\964f652f-15d9-40eb-ba7c-aa6e264eea24 1.png" alt="anh 1">
-                <span><h3>Nike Air Force 1' 07</h3><span> 
-                <span class = "price">2,540,000₫</span>
-                <br>
-                <span class = "price-real">2,200,000₫</span>
-            </div>
-            <div class ="Product">
-                <img src="footage\42a3ce00-f2cf-4eb1-9a9d-d6594bb4259e 1.png" alt="anh 1">
-                <span><h3>Nike Air Force 1' 07</h3><span> 
-                <span class = "price">2,540,000₫</span>
-                <br>
-                <span class = "price-real">2,200,000₫</span>
-            </div>
-            <div class ="Product">
-                <img src="footage\tt1.png" alt="anh 1">
-                <span><h3>Nike Air Force 1' 07</h3><span> 
-                <span class = "price">2,540,000₫</span>
-                <br>
-                <span class = "price-real">2,200,000₫</span>
-            </div>
+            
+            <button type="button" class="random_button" onclick=randomPicker()>Random</button>
+        
+        </section>
+            
+        <section>
+            <h2 id = "text1">
+                THIS IS THE BACKGROUND
+            </h2>
+            <h3 id = "text2">
+                linear-gradient()
+            </h3>
+        </section>
         
         
-        
-        </div>
-        <br>
 
-        <h1>Xu hướng</h1>
-        <div class="Hot">
-            <div class ="Product">
-                <img src="footage\21d38052-598b-44f6-a857-123c9f72b015 1.png" alt="anh 1">
-                <span><h3>Nike Air Force 1' 07</h3><span> 
-                <span class = "price">2,540,000₫</span>
-                <br>
-                <span class = "price-real">2,200,000₫</span>
-            </div>
-            <div class ="Product">
-                <img src="footage\bd8e8087-9d86-4449-aad9-dbcf81eaf4cc 1.png" alt="anh 1">
-                <span><h3>Nike Air Force 1' 07</h3><span> 
-                <span class = "price">2,540,000₫</span>
-                <br>
-                <span class = "price-real">2,200,000₫</span>
-            </div>
-            <div class ="Product">
-                <img src="footage\e38fbde9-d66b-401a-9164-e4ecabc8d14d 1.png" alt="anh 1">
-                <span><h3>Nike Air Force 1' 07</h3><span> 
-                <span class = "price">2,540,000₫</span>
-                <br>
-                <span class = "price-real">2,200,000₫</span>
-            </div>
-            <div class ="Product">
-                <img src="footage\tt5.png" alt="anh 1">
-                <span><h3>Nike Air Force 1' 07</h3><span> 
-                <span class = "price">2,540,000₫</span>
-                <br>
-                <span class = "price-real">2,200,000₫</span>
-            </div>
-            <div class ="Product">
-                <img src="footage\tt2.png" alt="anh 2">
-                <span><h3>Nike Air Force 1' 07</h3><span> 
-                <span class = "price">2,540,000₫</span>
-                <br>
-                <span class = "price-real">2,200,000₫</span>
-            </div>
-            <div class ="Product">
-                <img src="footage\tt3.png" alt="anh 1">
-                <span><h3>Nike Air Force 1' 07</h3><span> 
-                <span class = "price">2,540,000₫</span>
-                <br>
-                <p class = "price-real">2,200,000₫</p>
-            </div>
-        </div>
+    </main>
 
-        <div class = "banner2">
-            <img src="footage\240_F_251907432_XogFIXJ8mJIPWJYDC5TgYYj7jUh185mW 1.png" alt="">
-            <div class = "intro">
-                <h1>The Sneakers</h1>
-                <p>Bộ sưu tập giày thể thao năng động, trẻ trung,  khẳng định phong cách của bạn.</p>
-            </div>
-            <a href=""><div id="button"><h1>XEM THÊM...</h1></div></a>
-        </div>
-
-    
-            <div class = "row1">
-                <div class ="Product1">
-                    <img src="footage\964f652f-15d9-40eb-ba7c-aa6e264eea24 1.png" alt="anh 1">
-                    <span><h3>Nike Air Force 1' 07</h3><span> 
-                    <span class = "price">2,540,000₫</span>
-                    <br>
-                    <span class = "price-real">2,200,000₫</span>
-                </div>
-                <div class ="Product1">
-                    <img src="footage\air-force-1-crater-flyknit-older-shoe-SVjXLc 1.png" alt="anh 2">
-                    <span><h3>Nike Air Force 1' 07</h3><span> 
-                    <span class = "price">2,540,000₫</span>
-                    <br>
-                    <span class = "price-real">2,200,000₫</span>
-                </div>
-                <div class ="Product1">
-                    <img src="footage\tt3.png" alt="anh 1">
-                    <span><h3>Nike Air Force 1' 07</h3><span> 
-                    <span class = "price">2,540,000₫</span>
-                    <br>
-                    <span class = "price-real">2,200,000₫</span>
-                </div>
-                <div class ="Product1">
-                    <img src="footage\tt4.png" alt="anh 1">
-                    <span><h3>Nike Air Force 1' 07</h3><span> 
-                    <span class = "price">2,540,000₫</span>
-                    <br>
-                    <span class = "price-real">2,200,000₫</span>
-                </div>
-               
-            
-            
-            
-            </div>
-            <br>
-    
-            <div class="row2">
-                <div class ="Product2">
-                    <img src="footage\42a3ce00-f2cf-4eb1-9a9d-d6594bb4259e 1.png" alt="anh 1">
-                    <span><h3>Nike Air Force 1' 07</h3><span> 
-                    <span class = "price">2,540,000₫</span>
-                    <br>
-                    <span class = "price-real">2,200,000₫</span>
-                </div>
-                <div class ="Product2">
-                    <img src="footage\740da492-9bf7-4326-a2c9-47c5ab015f93 1.png" alt="anh 1">
-                    <span><h3>Nike Air Force 1' 07</h3><span> 
-                    <span class = "price">2,540,000₫</span>
-                    <br>
-                    <span class = "price-real">2,200,000₫</span>
-                </div>
-                <div class ="Product2">
-                    <img src="footage\tt5.png" alt="anh 1">
-                    <span><h3>Nike Air Force 1' 07</h3><span> 
-                    <span class = "price">2,540,000₫</span>
-                    <br>
-                    <span class = "price-real">2,200,000₫</span>
-                </div>
-                <div class ="Product2">
-                    <img src="footage\bd8e8087-9d86-4449-aad9-dbcf81eaf4cc 1.png" alt="anh 1">
-                    <span><h3>Nike Air Force 1' 07</h3><span> 
-                    <span class = "price">2,540,000₫</span>
-                    <br>
-                    <span class = "price-real">2,200,000₫</span>
-                </div>
-                
-            </div>
-        </div>
-
-    <div class = "footer">
-        <ul id="col1">
-            <li><a href="">TÌM HIỂU VỀ CHÚNG TÔI</a> </li>
-            <li><a href=""> TRỞ THÀNH THÀNH VIÊN</a></li>
-            <li><a href="">GỬI PHẢN HỒI</a> </li>
-        </ul>
-        <ul id="col2">
-            <h3 >GIÚP ĐỠ</h3>
-            <li><a href="">Vận chuyển</a> </li>
-            <li><a href="">Phương thức thanh toán</a> </li>
-            <li><a href="">Chính sách đổi trả</a> </li>
-            <li><a href="">Liên hệ với chúng tôi</a> </li>
-        </ul>
-        <ul id = "col3">
-            <h3> XSHOE</h3>
-            <li><a href="">Thông tin</a> </li>
-            <li><a href="">Tuyển dụng</a>  </li>
-            <li><a href="">Liên hệ </a> </li>
-        </ul>
-        <div id = "social">
-            <a href=""><i class="fab fa-instagram-square"></i></a>
-            <a href=""><i class="fab fa-facebook"></i></a>
-            <a href=""><i class="fab fa-youtube"></i></a>
-        </div>
     </div>
-
-    
-
-
-   
     
 </body>
 </html>
